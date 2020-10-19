@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+    <meta charset="UTF-8">
+    <title>Questionario</title>
+</head>
+<body>
+    <form action="http://127.0.0.1/FirstWebSite/src/response.php" method="post">
+        <input type="text" name="username"/>
+        <input type="password" name="psw"/><br/>
+        Genere:<br/>
+        <input type="radio" name="gender" value="M" checked>M<br/>
+        <input type="radio" name="gender" value="F">F<br/>
+        Sport:<br/>
+        <input type="checkbox" name="sport_1" value="Football">Football<br/>
+        <input type="checkbox" name="sport_2" value="Volley">Volley<br/>
+        <textarea name="comment" rows="10">
+        </textarea>
+        <input type="submit"/>
+    </form>
+</body>
+</html>

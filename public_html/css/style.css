@@ -1,0 +1,19 @@
+p{
+    color:blue;
+}
+.person{
+    color:red;
+}
+#firstname{
+    color:green;
+    font-size: larger;
+}
+.warning{
+    color:orangered;
+}
+.pinci-grey{
+    color:#ddd;
+}
+.pinci-darl-grey{
+    color:#444;
+}
