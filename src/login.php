@@ -10,5 +10,9 @@ while(!feof($file)){
     $i++;
 }
 //print_r($arr);
-while()
+$i=0;
+while($i<count($arr)){
+    echo $arr[$i];
+    $i++;
+}
 fclose($file);
