@@ -16,6 +16,7 @@ $i=0;
 $find=false;
 while($i<count($arr) && $find==false){
     //echo $arr[$i];
+    // strcmp($str1,$str2)==0 
     if($arr[$i]==$email && $arr[$i+1]==$password){
         $_SESSION['email']=$email; // un campo univoco 
         // esempio email o ID
