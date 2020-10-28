@@ -22,7 +22,7 @@ while($i<count($arr) && $find==false){
         $find=true;
         header("Location: riservata.php");
     }
-    $i++;
+    $i=$i+2;
 }
 if(!$find){
     echo "Credenziali errate";
