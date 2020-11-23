@@ -16,8 +16,26 @@ while($i<count($users)){
     $i++;
 }
 
+// ESEMPI VARI
 
 
+// variabile per lo scambio
+$tmp['titolo']=$users[$i]['titolo'];
+$tmp['artista']=$users[$i]['artista'];
+
+$tmp=$users[$i];
+
+// condizione 
+if(strcmp($users[$i]['titolo'],$users[$j]['titolo'])>0){
+    //....
+}
+
+
+
+function nomeFunzione($param){
+    //...
+    return $res;
+}
 
 /*
 
